@@ -20,11 +20,51 @@ body {
     max-width: 1440px;
     width: 100%;
     padding: 0 100px;
-    background-color: aqua;
+    /* background-color: aqua; */
     margin: 0 auto;
 }
 h1, h2, h3, h4, h5, h6, p, li, a {
     margin: 0;
+}
+
+/* menu  */
+.menu {
+    padding-top: 47px;
+}
+.menu__inner {
+    display: flex;
+    gap: 389px;
+    align-items: center;
+}
+.menu__left {
+}
+.menu__left-p {
+    font-family: var(--third-family);
+    font-weight: 600;
+    font-size: 42px;
+    color: #2f2e2e;
+    margin-left: -5px;
+}
+.menu__right {
+    display: flex;
+    gap: 106px;
+    padding-top: 14px;
+}
+.menu__right-a {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #2f2e2e;
+    text-decoration: none;
+    transition: .2s;
+    padding-right: 2px;
+}
+.menu__right-a:hover {
+    font-weight: 700;
+}
+.menu__right-img {
+    margin-left: -63px;
 }
 
 
