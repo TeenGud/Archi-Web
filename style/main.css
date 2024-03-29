@@ -318,6 +318,79 @@ h1, h2, h3, h4, h5, h6, p, li, a {
     align-self: center;
 }
 
+/* footer  */
+.footer {
+    margin-top: 150px;
+    min-height: 369px;
+    background-color: #2e2f32;
+}
+.footer__inner {
+    display: flex;
+    padding-top: 47px;
+}
+.logos-a {
+    text-decoration: none;
+}
+.footer__left {
+}
+.footer__left-h3 {
+    font-family: var(--third-family);
+    font-weight: 600;
+    font-size: 42px;
+    color: #fafafa;
+}
+.footer__left-p {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 171%;
+    color: #fafafa;
+    max-width: 287px;
+    padding-top: 6px;
+}
+.logos {
+    display: flex;
+    gap: 36px;
+    padding-top: 44px;
+}
+.logos__img {
+    transition: .2s;
+}
+.footer__mid {
+    margin-left: 140px;
+    padding-top: 10px;
+}
+.footer__mid-h5 {
+    font-family: var(--second-family);
+    font-weight: 900;
+    font-size: 24px;
+    color: #fafafa;
+}
+.footer__mid-p {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 125%;
+    color: #fafafa;
+    padding-top: 20px;
+    max-width: 201px;
+}
+.footer__right {
+    margin-left: 317px;
+    padding-top: 10px;
+}
+.footer__right-h5 {
+    font-family: var(--second-family);
+    font-weight: 900;
+    font-size: 24px;
+    color: #fafafa;
+}
+.logos-a:hover {
+    opacity: 0.8;
+}
+.footer__right-map {
+    margin-top: 18px;
+}
 @media screen and (max-width:1024px) {
     .team__inner {
         flex-wrap: wrap;
