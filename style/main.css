@@ -266,9 +266,13 @@ h1, h2, h3, h4, h5, h6, p, li, a {
 
 
 /* team  */
+.team {
+    padding-top: 89px;
+}
 .team__inner {
     display: flex;
     gap: 130px;
+    padding-top: 78px;
     /* justify-content: space-evenly; */
     /* padding: 0 100px; */
 }
@@ -288,6 +292,17 @@ h1, h2, h3, h4, h5, h6, p, li, a {
     font-size: 28px;
     color: #2f2e2e;
     margin-bottom: 16px;
+    padding-top: 13px;
+    padding-left: 4px;
+}
+.team__item:nth-child(2) .team__item-text-h3 {
+    padding-top: -2px;
+    padding-left: 0px;
+    margin-left: -4px;
+}
+.team__item:nth-child(2) .team__item-text-p {
+    margin-left: -4px;
+
 }
 .team__item-text-p {
     font-family: var(--font-family);
@@ -295,6 +310,7 @@ h1, h2, h3, h4, h5, h6, p, li, a {
     font-size: 17px;
     color: #2f2e2e;
     max-width: 307px;
+    margin-left: 4px;
 
 }
 .team__item-img {
