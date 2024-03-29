@@ -226,6 +226,44 @@ h1, h2, h3, h4, h5, h6, p, li, a {
     color: #000000;
 }
 
+/* our projects */
+.our_projects {
+    padding-top: 91px;
+}
+.out_projects__inner {
+}
+.out_projects__inner-h2 {
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 51px;
+    color: #2f2e2e;
+}
+.out_projects-grid {
+    padding-top: 72px;
+    display: grid;
+    justify-content: space-between;
+    gap: 104px;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr; */
+}
+.new-grid {
+    margin-top: 15px;
+}
+.out_projects-item {
+}
+.out_projects-item-img {
+}
+.out_projects-item-p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #2f2e2e;
+    max-width: 178px;
+    margin: 0 auto;
+    padding-top: 8px;
+}
+
 
 /* team  */
 .team__inner {
